@@ -1,10 +1,10 @@
-# 🚲 ECOBICI — Bicycle Loan Service Database
+# ECOBICI — Bicycle Loan Service Database
 
 > A relational database system designed to manage ECOBICI's bicycle loan service, supporting membership-based rentals and full administrative control over the fleet and operations.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -27,8 +27,8 @@ The system is divided into two main modules:
 
 | Module | Description |
 |--------|-------------|
-| 🚴 **Membership Service** | Handles user registration, active memberships, bicycle loans, and returns |
-| 🛠️ **Administrative Module** | Manages the bicycle fleet, stations, staff, maintenance records, and service reporting |
+| **Membership Service** | Handles user registration, active memberships, bicycle loans, and returns |
+| **Administrative Module** | Manages the bicycle fleet, stations, staff, maintenance records, and service reporting |
 
 ---
 
@@ -37,14 +37,14 @@ The system is divided into two main modules:
 ```
 Proyecto-DB-EcoBici/
 │
-├── 📄 README.md
+├── README.md
 │
-├── 📁 documentation/
+├── documentation/
 │   ├── conceptual_model.png        # Conceptual (ER) diagram
 │   ├── relational_model.jpg        # Relational schema
 │   └── Proyecto-DB-EcoBici.pdf     # Full documentation in Spanish
 │
-└── 📁 scripts/
+└── scripts/
     ├── crearBase.sql        # Database and schema creation
     ├── seguridad.sql        # Users and privileges
     ├── cargaInicial.sql     # Sample data population
@@ -88,7 +88,7 @@ The **data dictionary** provides a detailed description of every table and colum
 - Constraints (PK, FK, NOT NULL, UNIQUE, etc.)
 - Descriptions of what each field represents
 
-📄 See [`documentation/Proyecto-DB-EcoBici.pdf`](./documentation/Proyecto-DB-EcoBici.pdf) for the full reference.
+See [`documentation/Proyecto-DB-EcoBici.pdf`](./documentation/Proyecto-DB-EcoBici.pdf) for the full reference.
 
 ---
 
@@ -129,7 +129,7 @@ The following diagram was generated directly from **Microsoft SQL Server Managem
 
 ---
 
-## 📚 Academic Context
+## Academic Context
 
 > **Course:** *Bases De Datos*
 > **Institution:** *Universidad Nacional Autónoma De México - Facultad de Ingeniería*  
